@@ -1,0 +1,387 @@
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+
+
+
+  *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+
+  body  {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+ul{
+    list-style: none;
+}
+
+header {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+}
+
+header .container {
+
+    padding: 15px 15px;
+    
+    margin: auto auto;
+      position: relative;
+    
+}
+
+header .container::after {
+    content: "";
+    bottom: 0;
+    background-color: white;
+    height: 1px;
+    width: calc(100% + -25px);
+    position: absolute;
+    transform: translate(0px, -22px);
+    z-index: 4;
+} 
+
+ header .container .firstt {
+      
+    display: flex;
+    justify-content: space-between;
+     
+     margin-top: 5px;
+     position: relative;
+     margin-left: 210px;
+       z-index: 20;
+ }
+
+  .firstt   img {
+    width: 70%;
+    z-index: 20;
+    transform: translate(-234px ,-13px);
+
+ }
+ 
+ .container .nav {
+    position:absolute;
+    top: 25%;
+    transform: translate(-80px, 0px);
+    right: 0;
+     
+ }
+  .container .nav  ul {
+     
+    display: flex;
+     
+    
+    
+   
+    
+     
+    
+    
+    
+}
+
+ 
+.nav ul li {
+     font-size: 14px;
+     font-weight: bold;
+    margin-left: 10px ;
+    padding-left: 6px;
+    color: white;
+    z-index: 20;
+    
+     
+     
+}
+.container .nav ul .active {
+    color: #19c8fa;
+}
+
+.container .nav ul .active:after  {
+    content: "";
+    position: absolute;
+    background-color: #19c8fa;
+    width: 55px;
+    bottom: 0;
+    height: 1px;
+     
+    transform: translate(-47px, 41px);
+
+
+    z-index: 20;
+}
+
+.nav ul li::after:hover {
+    content: "";
+    color: #19c8fa;
+    border-bottom: #19c8fa 1px solid;
+    
+}
+
+  ul li:hover {
+    color: #19c8fa;
+    
+}
+.container .nav ul  .Services hr {
+    
+    position: absolute;
+    bottom: 0;
+    width: 71px;
+    transform: translate(-9px, 41px);
+   
+     height: 1px !important;
+        border: 0;
+      
+  
+     display: none;
+    
+      
+}
+.container .nav ul  .Services:hover hr {
+    display: block;
+
+     
+     
+}
+.container .nav ul  .Services:hover {
+    opacity: 0.9;
+}
+ 
+
+
+.container .nav ul  .Portofolio hr {
+    
+    position: absolute;
+    bottom: 0;
+    width: 71px;
+    transform: translate(-9px, 41px);
+   
+     height: 1px !important;
+        border: 0;
+      
+  
+     display: none;
+    
+      
+}
+
+.container .nav ul  .Portofolio:hover hr {
+    display: block;
+
+     
+     
+}
+.container .nav ul  .Portofolio:hover {
+    opacity: 0.9;
+}
+
+
+.container .nav ul  .About hr {
+    
+    position: absolute;
+    bottom: 0;
+    width: 71px;
+    transform: translate(-9px, 41px);
+   
+     height: 1px !important;
+        border: 0;
+      
+  
+     display: none;
+    
+      
+}
+
+.container .nav ul  .About:hover hr {
+    display: block;
+
+     
+     
+}
+.container .nav ul  .About:hover {
+    opacity: 0.9;
+}
+
+
+.container .nav ul  .Pricing hr {
+    
+    position: absolute;
+    bottom: 0;
+    width: 71px;
+    transform: translate(-9px, 41px);
+   
+     height: 1px !important;
+        border: 0;
+      
+  
+     display: none;
+    
+      
+}
+
+.container .nav ul  .Pricing:hover hr {
+    display: block;
+
+     
+     
+}
+.container .nav ul  .Pricing:hover {
+    opacity: 0.9;
+}
+
+
+.container .nav ul  .Contact hr {
+    
+    position: absolute;
+    bottom: 0;
+    width: 71px;
+    transform: translate(-9px, 41px);
+   
+     height: 1px !important;
+        border: 0;
+      
+  
+     display: none;
+    
+      
+}
+
+.container .nav ul  .Contact:hover hr {
+    display: block;
+
+     
+     
+}
+.container .nav ul  .Contact:hover {
+    opacity: 0.9;
+}
+ 
+
+ 
+ 
+ 
+ 
+.search i {
+    position: relative;
+    color: white;
+    transform: translate(2px, 20px);
+    font-size: 20px;
+    z-index: 20;
+}
+i::after {
+    content: "";
+    height: 36px;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+     
+    transform: translate(-45px, -6px);
+   
+ 
+    
+
+}
+header   {
+    height: 100vh;
+    background-image: url(412685106.jpg);
+    background-size: cover;
+     position: relative;
+}
+
+ header:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 60%);
+    z-index: 10;
+   
+ }
+
+
+ header .div {
+
+    position: absolute;
+    content: "";
+    width: 1000px;
+    height: 328px;
+    background-color:rgb(15 116 143 / 70%);
+     
+    z-index: 300;
+    transform: translate(-389px, 220px);
+
+ }
+
+/* header .div .h1, h1, p {
+
+    margin-top: 10px;
+    text-align: center;
+}
+ header .div .h1 {
+     
+    color: blanchedalmond;
+    font-weight: 800px !important;
+    
+    
+ }
+
+ header .div .h1 , h1 {
+    
+    transform: translate(189px, 55px);
+
+ }
+  
+
+  */
+  header .div .h1 , h1 {
+    
+    transform: translate(435px, 2px);
+
+ }
+ header .div h1 {
+    color: white;
+    opacity: 0.9;
+ }
+  
+  header .div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+    
+  header .div p {
+    width: 450px;
+    text-align: center;
+    line-height: 2;
+    transform: translate(435px, 12px);
+    color: aquamarine;
+ }
